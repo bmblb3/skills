@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: vague-theme-editor-request
+expected_outcome: |
+  The response does not greenlight a full theme editor. Either it asks one or two
+  sharp questions about the underlying need (who is asking, what they are actually
+  unhappy with) and stops, or it gives a Simplify verdict whose first slice is a
+  small, well-known feature such as a dark mode toggle, with the full editor deferred.

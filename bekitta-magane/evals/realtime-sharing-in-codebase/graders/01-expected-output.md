@@ -4,4 +4,4 @@ focus: trace
 weight: 1
 ---
 
-The result matches this description: The response reads the code before judging. It gives a Cut or Simplify verdict, citing files that show why real-time sharing is invasive (single-user local JSON storage in todo/storage.py, no owner or version fields in todo/models.py). It points to existing features as the workaround: the TODO_FILE environment variable and/or the export and import commands.
+The result matches this description: The response reads the code before judging and gives a Cut or Simplify verdict. It points to an existing feature as the workaround: the setting that lets people keep the list in a shared file (TODO_FILE) and/or the export and import commands. It explains, in plain product language, why real-time sharing is costly (for example, the list is a single-user local file, so it would change how everything is stored), without file paths, line numbers or implementation mechanics. It is under about 100 words.
